@@ -21,7 +21,7 @@ class _ExampleState extends State<Example> {
   int _selectedIndex = 0;
   static TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.w600);
-  static List<Widget> _widgetOptions = <Widget>[
+  static final List<Widget> _widgetOptions = <Widget>[
     
     Container(
       color: Colors.red,
